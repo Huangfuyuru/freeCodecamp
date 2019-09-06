@@ -1,0 +1,33 @@
+#header{
+    position:fixed;
+    top:0;
+    padding:0px 20px;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #eee;
+    margin: 0 auto;
+    height: 5vw;
+}
+#logo{
+    width: 60vw;
+}
+#header-img{
+    width: 25vw;
+}
+
+ul{
+    width:35vw;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    list-style: none;
+}
+#section1{
+    margin-top:100px; 
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}

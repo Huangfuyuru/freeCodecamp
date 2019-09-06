@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="demo.css">
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Let us know how we can improve freeCodeCamp</p>
+    <form id="survey-form">
+        *Name:<input type="name" id="name-label"><br>
+        *Email<input type="email" id="email-label"><br>
+        *Age<input type="number" id="number-label" min="0" max="50"><br>
+        Which option best describes your current role?  
+        <select id="dropdown">
+            <option value="student">student</option>
+            <option value="full_time_job">full time job</option>
+            <option value="full_time_learner">full_time_learner</option>
+        </select><br>
+        * How likely is that you would recommend freeCodeCamp to a friend?<input type="radio" name="xx" value="definitely"/>Definitely
+        <input type="radio" name="xx" value="maybe">maybe
+        <input type="radio" name="xx" value="not sure">not sure<br>
+        Things that should be improved in the future
+(Check all that apply):
+        <input type="checkbox" name="x" value="Front-end Projects">Front-end Projects
+        <input type="checkbox" name="x" value="Back-end Projects">Back-end Projects
+        <input type="checkbox" name="x" value="Data Visualization">Data Visualization
+        <input type="checkbox" name="x" value="Challenges">Challenges<br>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+    </form>
+</body>
+</html>
